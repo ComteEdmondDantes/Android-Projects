@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <!--<color name="colorAccent">#FFC107</color>-->
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#000000</color>
+
+    <color name="skin_white">#FFFFFF</color>
+    <color name="skin_blue">#E0FFFF</color>
+    <color name="skin_purple">#9F79EE</color>
+    <color name="skin_wood">#CDAA7D</color>
+    <color name="skin_gray">#E0E0E0</color>
+    <color name="skin_green">#8FBC8F</color>
+    <color name="skin_pink">#FFE1FF</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

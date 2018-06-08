@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/create_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Open Journel" />
+
+    <com.hdu.journal.EditTextMultiLine
+        android:id="@+id/create_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:layout_below="@+id/create_toolbar"
+        android:text=""
+        android:layout_margin="40dp"
+        android:background="@null"/>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/create_skin_bmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:bmb_buttonEnum="simpleCircle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        app:bmb_normalColor="#FFC107"
+        android:layout_margin="10dp"
+        app:bmb_piecePlaceEnum="piecePlace_dot_7_3"
+        app:bmb_buttonPlaceEnum="buttonPlace_sc_7_3"/>
+
+</RelativeLayout>

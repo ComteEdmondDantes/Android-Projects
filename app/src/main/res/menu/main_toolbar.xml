@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/main_search"
+        android:icon="@drawable/ic_search_white_36dp"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/main_date"
+        android:icon="@drawable/ic_date_range_white_36dp"
+        android:title="Date"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/main_backup"
+        android:icon="@drawable/ic_backup_white_36dp"
+        android:title="Backup"
+        app:showAsAction="always" />
+
+</menu>
